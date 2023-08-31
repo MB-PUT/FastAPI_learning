@@ -5,7 +5,7 @@ from .routers import post, user, auth, vote
 from .config import settings
 from fastapi.middleware.cors import CORSMiddleware
 
-#(14:17:17)
+#(17:07:48)
 
 #models.Base.metadata.create_all(bind=engine)
 

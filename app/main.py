@@ -5,7 +5,7 @@ from .routers import post, user, auth, vote
 from .config import settings
 from fastapi.middleware.cors import CORSMiddleware
 
-#(18:04:43)
+#(18:23:12)
 
 #models.Base.metadata.create_all(bind=engine)
 
@@ -27,7 +27,7 @@ app.include_router(vote.router)
         
 @app.get("/")
 def  root():
-    return "Hello"
+    return {"message":{"hello world"}}
 
 
 
